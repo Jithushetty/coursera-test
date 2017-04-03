@@ -2,17 +2,17 @@
 <head>
 <meta charset="utf-8">
   <title>Hello</title>
+   <script src="angular.min.js"></script>
   <script src="app.js"></script>
-  <script src="angular.min.js"></script>
+ 
   
 </head>
 <body>
   <h1>I want to make her smile </h1>
   <div ng-controller='Mymegcontroller'>
-  {{name}}
   <button ng-click="makesmile()"> Make her smile</button><br>
 
-  <img src="images/cat_ {{stateof}}.jpg">
+  <img src="images/dog_{{stateof}}.jpg">
   
   </div>
 </body>
